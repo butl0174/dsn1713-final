@@ -1,0 +1,47 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1,h2,h3,h4{
+font-family: "thirsty-rough-two", sans-serif;
+font-weight: 300;
+font-style: normal;
+color:#060d55;
+}
+
+.btn{
+background-color: #44abc0;
+}
+
+
+.mask{
+    background-color: gray;
+    opacity: 60%;
+}
+
+.ship{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero{
+    display: flex;
+    font-size: 70px;
+    
+}
+
+.menu{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    overflow: hidden; 
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+}
+
+
+
+$custom-colors-bg-secondary-subtle: ("custom-color":  rgb(237, 236, 236));
