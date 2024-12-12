@@ -8,7 +8,8 @@ color:#060d55;
 }
 
 .btn{
-background-color: #44abc0;
+background-color: #5e6686;
+color: white;
 }
 
 
@@ -42,6 +43,41 @@ hr {
     width: 100%;
 }
 
+.socials{
+    margin-left: 145px;
+}
 
+.socials img {
+    width: 30px;
+  }
+
+  @media (max-width: 840px) {
+    footer {
+      text-align: center;
+    }
+    .socials{
+        margin-left: 0;
+    }
+    h5{
+        font-size: 1.1rem;
+        text-align: start;
+        padding-left: 70px;
+    }
+    p{
+        font-size: 0.9rem;
+        text-align: start;
+        padding-left: 70px;
+        padding-right: 55px;
+    }
+
+    .about{
+        padding-left: 75px;
+    }
+
+    .area{
+        font-size: 3.5rem;
+    }
+  }
+  
 
 $custom-colors-bg-secondary-subtle: ("custom-color":  rgb(237, 236, 236));

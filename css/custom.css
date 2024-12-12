@@ -11852,7 +11852,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .btn {
-  background-color: #44abc0;
+  background-color: #5e6686;
+  color: white;
 }
 
 .mask {
@@ -11882,6 +11883,40 @@ hr {
   background-color: black;
   height: 2px;
   width: 100%;
+}
+
+.socials {
+  margin-left: 145px;
+}
+
+.socials img {
+  width: 30px;
+}
+
+@media (max-width: 840px) {
+  footer {
+    text-align: center;
+  }
+  .socials {
+    margin-left: 0;
+  }
+  h5, .h5 {
+    font-size: 1.1rem;
+    text-align: start;
+    padding-left: 70px;
+  }
+  p {
+    font-size: 0.9rem;
+    text-align: start;
+    padding-left: 70px;
+    padding-right: 55px;
+  }
+  .about {
+    padding-left: 75px;
+  }
+  .area {
+    font-size: 3.5rem;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
